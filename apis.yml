@@ -1,8 +1,25 @@
 aid: heartyyfresh
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heartyyfresh.png
 name: HeartyyFresh
-description: HeartyyFresh is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: HeartyyFresh is a mobile-first Indian grocery delivery service that lets customers
+  order fresh Indian groceries and household staples for home delivery through its iOS and Android
+  apps. The consumer offering centers on convenience and quality, promoting a first-time incentive of
+  20% off the first five orders placed through the app. HeartyyFresh operates as a direct-to-consumer
+  grocery app (published under the com.rahein.heartyyfresh Android package and the "HeartyyFresh -
+  Indian Grocery" iOS listing) rather than a developer platform; it exposes no public API, developer
+  portal, documentation, or SDKs at this time. This profile was surfaced as a portfolio-lead stub and
+  enriched for identity only.
 url: https://raw.githubusercontent.com/api-evangelist/heartyyfresh/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +29,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Grocery
+- Delivery
+- Consumer
+- Mobile App
+- E-Commerce
+- Food
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.heartyyfresh.com/
+- type: AppStore
+  url: https://apps.apple.com/us/app/heartyyfresh-indian-grocery/id1046048302
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=com.rahein.heartyyfresh
+- type: DomainSecurity
+  url: security/heartyyfresh-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
