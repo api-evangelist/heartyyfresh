@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/heartyyfresh/integrations
+- https://n8n.io/integrations/heartyyfresh/
+- https://composio.dev/toolkits/heartyyfresh
+- https://monid.ai/tools/heartyyfresh
+checked:
+- https://composio.dev/toolkits/heartyyfresh
+- https://monid.ai/tools/heartyyfresh
+- https://n8n.io/integrations/heartyyfresh/
+- https://zapier.com/apps/heartyyfresh/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
